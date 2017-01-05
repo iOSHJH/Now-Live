@@ -1,0 +1,59 @@
+//
+//  NOWHeader.pch
+//  NOW直播
+//
+//  Created by WONG on 2016/12/30.
+//  Copyright © 2016年 yunshi. All rights reserved.
+//
+
+#ifndef NOWHeader_pch
+#define NOWHeader_pch
+
+#import "MJRefresh.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "UIView+Extension.h"
+#import "SetupHeader.h"
+#import "PPNetworkHelper.h"
+#import "YYModel.h"
+
+// 屏幕宽高
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+// 只要添加了这个宏，就不用带mas_前缀
+#define MAS_SHORTHAND3
+// 只要添加了这个宏，equalTo就等价于mas_equalTo
+#define MAS_SHORTHAND_GLOBALS
+// 这个头文件一定要放在上面两个宏的后面
+#import <Masonry.h>
+
+#ifdef DEBUG
+#define DLog(format, ...) NSLog( @"<%@:(%d)> %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(format),  ##__VA_ARGS__] )
+#else
+#define DLog(format, ...)
+#endif
+
+#define WeakSelf __weak typeof(self) weakSelf = self
+
+// color
+#define RGB(r, g, b) [UIColor colorWithRed:((r) / 255.0) green:((g) / 255.0) blue:((b) / 255.0) alpha:1.0]
+#define RGBAlpha(r, g, b, a) [UIColor colorWithRed:((r) / 255.0) green:((g) / 255.0) blue:((b) / 255.0) alpha:(a)]
+#define HexRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define HexRGBAlpha(rgbValue,a) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:(a)]
+
+// 主色 深灰色一
+#define MainGrayColor HexRGB(0x1d1d1d)
+// 辅助色 深灰色二
+#define GrayColor HexRGB(0x404040)
+// 主色 明黄色
+#define MainYellowColor HexRGB(0xffd800)
+// 辅助色 黄色
+#define YellowColor HexRGB(0xfcc825)
+// 辅助色 浅灰色一
+#define FrenchGrey1 HexRGB(0x808080)
+
+#define BGColor HexRGB(0xebebeb)
+
+
+#endif /* NOWHeader_pch */

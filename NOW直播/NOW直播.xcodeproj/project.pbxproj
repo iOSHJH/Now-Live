@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9DDED12CE1A1617D5DDF142 /* libPods-NOW直播.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 532742D4B354D619D0C1E50F /* libPods-NOW直播.a */; };
+		E0455CDE1E16406B005D2256 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0455CDD1E16406B005D2256 /* main.m */; };
+		E0455CE11E16406B005D2256 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0455CE01E16406B005D2256 /* AppDelegate.m */; };
+		E0455CE71E16406B005D2256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0455CE51E16406B005D2256 /* Main.storyboard */; };
+		E0455CE91E16406B005D2256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0455CE81E16406B005D2256 /* Assets.xcassets */; };
+		E0455CEC1E16406B005D2256 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0455CEA1E16406B005D2256 /* LaunchScreen.storyboard */; };
+		E0455D331E1646F2005D2256 /* MainBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0455D321E1646F2005D2256 /* MainBaseViewController.m */; };
+		E0455D361E164778005D2256 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0455D351E164778005D2256 /* MainNavigationController.m */; };
+		E0455D4B1E164BA9005D2256 /* UIButton+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = E0455D3A1E164BA9005D2256 /* UIButton+Setup.m */; };
+		E0455D4C1E164BA9005D2256 /* UIImageView+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = E0455D3C1E164BA9005D2256 /* UIImageView+Setup.m */; };
+		E0455D4D1E164BA9005D2256 /* UILabel+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = E0455D3E1E164BA9005D2256 /* UILabel+Setup.m */; };
+		E0455D4E1E164BA9005D2256 /* UITextField+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = E0455D401E164BA9005D2256 /* UITextField+Setup.m */; };
+		E0455D4F1E164BA9005D2256 /* UITextView+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = E0455D421E164BA9005D2256 /* UITextView+Setup.m */; };
+		E0455D501E164BA9005D2256 /* UIView+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = E0455D441E164BA9005D2256 /* UIView+Setup.m */; };
+		E0455D511E164BA9005D2256 /* UIControl+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E0455D461E164BA9005D2256 /* UIControl+Extension.m */; };
+		E0455D521E164BA9005D2256 /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = E0455D481E164BA9005D2256 /* UIImage+Scale.m */; };
+		E0455D531E164BA9005D2256 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E0455D4A1E164BA9005D2256 /* UIView+Extension.m */; };
+		E0455D561E164D81005D2256 /* CommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0455D551E164D81005D2256 /* CommendViewController.m */; };
+		E0455D591E16520F005D2256 /* PlayerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0455D581E16520F005D2256 /* PlayerTableViewCell.m */; };
+		E0455D5C1E1660E3005D2256 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0455D5B1E1660E3005D2256 /* PlayerViewController.m */; };
+		E0455D5F1E16618A005D2256 /* PlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E0455D5E1E16618A005D2256 /* PlayerModel.m */; };
+		E0455D631E167283005D2256 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0455D621E167283005D2256 /* IJKMediaFramework.framework */; };
+		E06CC8251E1C958700E4DE2E /* EmoticonInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = E06CC8241E1C958700E4DE2E /* EmoticonInputView.m */; };
+		E06CC8281E1CA4BD00E4DE2E /* UIImage+Barrage.m in Sources */ = {isa = PBXBuildFile; fileRef = E06CC8271E1CA4BD00E4DE2E /* UIImage+Barrage.m */; };
+		E06CC82B1E1CAEEB00E4DE2E /* NSSafeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E06CC82A1E1CAEEB00E4DE2E /* NSSafeObject.m */; };
+		E0A571DD1E1B5101005D51C3 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A571DC1E1B5101005D51C3 /* libbz2.tbd */; };
+		E0A571DF1E1B510D005D51C3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A571DE1E1B510D005D51C3 /* libz.tbd */; };
+		E0A571E21E1B5E5C005D51C3 /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A571E11E1B5E5C005D51C3 /* DMHeartFlyView.m */; };
+		E0A571E51E1B9093005D51C3 /* TimerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A571E41E1B9093005D51C3 /* TimerTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CF2DF0618C0681F9BE5464B /* Pods-NOW直播.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOW直播.release.xcconfig"; path = "Pods/Target Support Files/Pods-NOW直播/Pods-NOW直播.release.xcconfig"; sourceTree = "<group>"; };
+		42B2ACFC66E0E6344E0ADAF9 /* Pods-NOW直播.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NOW直播.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NOW直播/Pods-NOW直播.debug.xcconfig"; sourceTree = "<group>"; };
+		532742D4B354D619D0C1E50F /* libPods-NOW直播.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NOW直播.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0455CD91E16406B005D2256 /* NOW直播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NOW直播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0455CDD1E16406B005D2256 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0455CDF1E16406B005D2256 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0455CE01E16406B005D2256 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0455CE61E16406B005D2256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0455CE81E16406B005D2256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0455CEB1E16406B005D2256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0455CED1E16406B005D2256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0455D301E164609005D2256 /* NOWHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NOWHeader.pch; sourceTree = "<group>"; };
+		E0455D311E1646F2005D2256 /* MainBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainBaseViewController.h; sourceTree = "<group>"; };
+		E0455D321E1646F2005D2256 /* MainBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainBaseViewController.m; sourceTree = "<group>"; };
+		E0455D341E164778005D2256 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		E0455D351E164778005D2256 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		E0455D381E164BA9005D2256 /* SetupHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupHeader.h; sourceTree = "<group>"; };
+		E0455D391E164BA9005D2256 /* UIButton+Setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Setup.h"; sourceTree = "<group>"; };
+		E0455D3A1E164BA9005D2256 /* UIButton+Setup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Setup.m"; sourceTree = "<group>"; };
+		E0455D3B1E164BA9005D2256 /* UIImageView+Setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Setup.h"; sourceTree = "<group>"; };
+		E0455D3C1E164BA9005D2256 /* UIImageView+Setup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Setup.m"; sourceTree = "<group>"; };
+		E0455D3D1E164BA9005D2256 /* UILabel+Setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Setup.h"; sourceTree = "<group>"; };
+		E0455D3E1E164BA9005D2256 /* UILabel+Setup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Setup.m"; sourceTree = "<group>"; };
+		E0455D3F1E164BA9005D2256 /* UITextField+Setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Setup.h"; sourceTree = "<group>"; };
+		E0455D401E164BA9005D2256 /* UITextField+Setup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Setup.m"; sourceTree = "<group>"; };
+		E0455D411E164BA9005D2256 /* UITextView+Setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Setup.h"; sourceTree = "<group>"; };
+		E0455D421E164BA9005D2256 /* UITextView+Setup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Setup.m"; sourceTree = "<group>"; };
+		E0455D431E164BA9005D2256 /* UIView+Setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Setup.h"; sourceTree = "<group>"; };
+		E0455D441E164BA9005D2256 /* UIView+Setup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Setup.m"; sourceTree = "<group>"; };
+		E0455D451E164BA9005D2256 /* UIControl+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Extension.h"; sourceTree = "<group>"; };
+		E0455D461E164BA9005D2256 /* UIControl+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Extension.m"; sourceTree = "<group>"; };
+		E0455D471E164BA9005D2256 /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
+		E0455D481E164BA9005D2256 /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
+		E0455D491E164BA9005D2256 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		E0455D4A1E164BA9005D2256 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		E0455D541E164D81005D2256 /* CommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommendViewController.h; sourceTree = "<group>"; };
+		E0455D551E164D81005D2256 /* CommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommendViewController.m; sourceTree = "<group>"; };
+		E0455D571E16520F005D2256 /* PlayerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerTableViewCell.h; sourceTree = "<group>"; };
+		E0455D581E16520F005D2256 /* PlayerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerTableViewCell.m; sourceTree = "<group>"; };
+		E0455D5A1E1660E3005D2256 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		E0455D5B1E1660E3005D2256 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		E0455D5D1E16618A005D2256 /* PlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerModel.h; sourceTree = "<group>"; };
+		E0455D5E1E16618A005D2256 /* PlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerModel.m; sourceTree = "<group>"; };
+		E0455D621E167283005D2256 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = "NOW直播/Classes/Frameworks/IJKMediaFramework.framework"; sourceTree = "<group>"; };
+		E06CC8231E1C958700E4DE2E /* EmoticonInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoticonInputView.h; sourceTree = "<group>"; };
+		E06CC8241E1C958700E4DE2E /* EmoticonInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoticonInputView.m; sourceTree = "<group>"; };
+		E06CC8261E1CA4BD00E4DE2E /* UIImage+Barrage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Barrage.h"; sourceTree = "<group>"; };
+		E06CC8271E1CA4BD00E4DE2E /* UIImage+Barrage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Barrage.m"; sourceTree = "<group>"; };
+		E06CC8291E1CAEEB00E4DE2E /* NSSafeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSafeObject.h; sourceTree = "<group>"; };
+		E06CC82A1E1CAEEB00E4DE2E /* NSSafeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSafeObject.m; sourceTree = "<group>"; };
+		E0A571DA1E1B50EF005D51C3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E0A571DC1E1B5101005D51C3 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		E0A571DE1E1B510D005D51C3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E0A571E01E1B5E5C005D51C3 /* DMHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHeartFlyView.h; sourceTree = "<group>"; };
+		E0A571E11E1B5E5C005D51C3 /* DMHeartFlyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHeartFlyView.m; sourceTree = "<group>"; };
+		E0A571E31E1B9093005D51C3 /* TimerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerTool.h; sourceTree = "<group>"; };
+		E0A571E41E1B9093005D51C3 /* TimerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0455CD61E16406B005D2256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A571DF1E1B510D005D51C3 /* libz.tbd in Frameworks */,
+				E0A571DD1E1B5101005D51C3 /* libbz2.tbd in Frameworks */,
+				E0455D631E167283005D2256 /* IJKMediaFramework.framework in Frameworks */,
+				B9DDED12CE1A1617D5DDF142 /* libPods-NOW直播.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50FDAB9985A40AE665725E79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42B2ACFC66E0E6344E0ADAF9 /* Pods-NOW直播.debug.xcconfig */,
+				2CF2DF0618C0681F9BE5464B /* Pods-NOW直播.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E0455CD01E16406B005D2256 = {
+			isa = PBXGroup;
+			children = (
+				E0455CDB1E16406B005D2256 /* NOW直播 */,
+				E0455CDA1E16406B005D2256 /* Products */,
+				50FDAB9985A40AE665725E79 /* Pods */,
+				FCADCE6DDFCF2FB4EB1C2A99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E0455CDA1E16406B005D2256 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0455CD91E16406B005D2256 /* NOW直播.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0455CDB1E16406B005D2256 /* NOW直播 */ = {
+			isa = PBXGroup;
+			children = (
+				E0455CDF1E16406B005D2256 /* AppDelegate.h */,
+				E0455CE01E16406B005D2256 /* AppDelegate.m */,
+				E0455CF31E164297005D2256 /* Classes */,
+				E0455D301E164609005D2256 /* NOWHeader.pch */,
+				E0455CE51E16406B005D2256 /* Main.storyboard */,
+				E0455CE81E16406B005D2256 /* Assets.xcassets */,
+				E0455CEA1E16406B005D2256 /* LaunchScreen.storyboard */,
+				E0455CED1E16406B005D2256 /* Info.plist */,
+				E0455CDC1E16406B005D2256 /* Supporting Files */,
+			);
+			path = "NOW直播";
+			sourceTree = "<group>";
+		};
+		E0455CDC1E16406B005D2256 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0455CDD1E16406B005D2256 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0455CF31E164297005D2256 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E0455CF41E164297005D2256 /* Extension */,
+				E0455CF51E164297005D2256 /* Frameworks */,
+				E0455CFA1E164297005D2256 /* Main */,
+				E0455CF61E164297005D2256 /* Live */,
+				E0455CFE1E164297005D2256 /* My */,
+				E0455D021E164297005D2256 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E0455CF41E164297005D2256 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E0A571E31E1B9093005D51C3 /* TimerTool.h */,
+				E0A571E41E1B9093005D51C3 /* TimerTool.m */,
+				E0455D371E164BA9005D2256 /* Setup */,
+				E0455D451E164BA9005D2256 /* UIControl+Extension.h */,
+				E0455D461E164BA9005D2256 /* UIControl+Extension.m */,
+				E0455D471E164BA9005D2256 /* UIImage+Scale.h */,
+				E0455D481E164BA9005D2256 /* UIImage+Scale.m */,
+				E06CC8261E1CA4BD00E4DE2E /* UIImage+Barrage.h */,
+				E06CC8271E1CA4BD00E4DE2E /* UIImage+Barrage.m */,
+				E0455D491E164BA9005D2256 /* UIView+Extension.h */,
+				E0455D4A1E164BA9005D2256 /* UIView+Extension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E0455CF51E164297005D2256 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0455CF61E164297005D2256 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				E0455CF71E164297005D2256 /* Controller */,
+				E0455CF81E164297005D2256 /* Model */,
+				E0455CF91E164297005D2256 /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		E0455CF71E164297005D2256 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0455D541E164D81005D2256 /* CommendViewController.h */,
+				E0455D551E164D81005D2256 /* CommendViewController.m */,
+				E0455D5A1E1660E3005D2256 /* PlayerViewController.h */,
+				E0455D5B1E1660E3005D2256 /* PlayerViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0455CF81E164297005D2256 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E06CC8291E1CAEEB00E4DE2E /* NSSafeObject.h */,
+				E06CC82A1E1CAEEB00E4DE2E /* NSSafeObject.m */,
+				E0455D5D1E16618A005D2256 /* PlayerModel.h */,
+				E0455D5E1E16618A005D2256 /* PlayerModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0455CF91E164297005D2256 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0A571E01E1B5E5C005D51C3 /* DMHeartFlyView.h */,
+				E0A571E11E1B5E5C005D51C3 /* DMHeartFlyView.m */,
+				E0455D571E16520F005D2256 /* PlayerTableViewCell.h */,
+				E0455D581E16520F005D2256 /* PlayerTableViewCell.m */,
+				E06CC8231E1C958700E4DE2E /* EmoticonInputView.h */,
+				E06CC8241E1C958700E4DE2E /* EmoticonInputView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0455CFA1E164297005D2256 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E0455CFB1E164297005D2256 /* Controller */,
+				E0455CFC1E164297005D2256 /* Model */,
+				E0455CFD1E164297005D2256 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E0455CFB1E164297005D2256 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0455D311E1646F2005D2256 /* MainBaseViewController.h */,
+				E0455D321E1646F2005D2256 /* MainBaseViewController.m */,
+				E0455D341E164778005D2256 /* MainNavigationController.h */,
+				E0455D351E164778005D2256 /* MainNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0455CFC1E164297005D2256 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0455CFD1E164297005D2256 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0455CFE1E164297005D2256 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				E0455CFF1E164297005D2256 /* Controller */,
+				E0455D001E164297005D2256 /* Model */,
+				E0455D011E164297005D2256 /* View */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		E0455CFF1E164297005D2256 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0455D001E164297005D2256 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0455D011E164297005D2256 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0455D021E164297005D2256 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E0455D371E164BA9005D2256 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				E0455D381E164BA9005D2256 /* SetupHeader.h */,
+				E0455D391E164BA9005D2256 /* UIButton+Setup.h */,
+				E0455D3A1E164BA9005D2256 /* UIButton+Setup.m */,
+				E0455D3B1E164BA9005D2256 /* UIImageView+Setup.h */,
+				E0455D3C1E164BA9005D2256 /* UIImageView+Setup.m */,
+				E0455D3D1E164BA9005D2256 /* UILabel+Setup.h */,
+				E0455D3E1E164BA9005D2256 /* UILabel+Setup.m */,
+				E0455D3F1E164BA9005D2256 /* UITextField+Setup.h */,
+				E0455D401E164BA9005D2256 /* UITextField+Setup.m */,
+				E0455D411E164BA9005D2256 /* UITextView+Setup.h */,
+				E0455D421E164BA9005D2256 /* UITextView+Setup.m */,
+				E0455D431E164BA9005D2256 /* UIView+Setup.h */,
+				E0455D441E164BA9005D2256 /* UIView+Setup.m */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		FCADCE6DDFCF2FB4EB1C2A99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0A571DE1E1B510D005D51C3 /* libz.tbd */,
+				E0A571DC1E1B5101005D51C3 /* libbz2.tbd */,
+				E0A571DA1E1B50EF005D51C3 /* AVFoundation.framework */,
+				E0455D621E167283005D2256 /* IJKMediaFramework.framework */,
+				532742D4B354D619D0C1E50F /* libPods-NOW直播.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0455CD81E16406B005D2256 /* NOW直播 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0455CF01E16406B005D2256 /* Build configuration list for PBXNativeTarget "NOW直播" */;
+			buildPhases = (
+				6641A83F4B4953A4D76EEB48 /* [CP] Check Pods Manifest.lock */,
+				E0455CD51E16406B005D2256 /* Sources */,
+				E0455CD61E16406B005D2256 /* Frameworks */,
+				E0455CD71E16406B005D2256 /* Resources */,
+				E1CC7A181C88ABC706BC83A0 /* [CP] Embed Pods Frameworks */,
+				E7DDD3790C94343ED3FDE0EE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NOW直播";
+			productName = "NOW直播";
+			productReference = E0455CD91E16406B005D2256 /* NOW直播.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0455CD11E16406B005D2256 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yunshi;
+				TargetAttributes = {
+					E0455CD81E16406B005D2256 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E0455CD41E16406B005D2256 /* Build configuration list for PBXProject "NOW直播" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0455CD01E16406B005D2256;
+			productRefGroup = E0455CDA1E16406B005D2256 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0455CD81E16406B005D2256 /* NOW直播 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0455CD71E16406B005D2256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0455CEC1E16406B005D2256 /* LaunchScreen.storyboard in Resources */,
+				E0455CE91E16406B005D2256 /* Assets.xcassets in Resources */,
+				E0455CE71E16406B005D2256 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6641A83F4B4953A4D76EEB48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1CC7A181C88ABC706BC83A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NOW直播/Pods-NOW直播-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7DDD3790C94343ED3FDE0EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NOW直播/Pods-NOW直播-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0455CD51E16406B005D2256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0455D591E16520F005D2256 /* PlayerTableViewCell.m in Sources */,
+				E0455CE11E16406B005D2256 /* AppDelegate.m in Sources */,
+				E0455D521E164BA9005D2256 /* UIImage+Scale.m in Sources */,
+				E0455D331E1646F2005D2256 /* MainBaseViewController.m in Sources */,
+				E0455D511E164BA9005D2256 /* UIControl+Extension.m in Sources */,
+				E0455D4B1E164BA9005D2256 /* UIButton+Setup.m in Sources */,
+				E06CC8281E1CA4BD00E4DE2E /* UIImage+Barrage.m in Sources */,
+				E0455D4D1E164BA9005D2256 /* UILabel+Setup.m in Sources */,
+				E0455CDE1E16406B005D2256 /* main.m in Sources */,
+				E0A571E21E1B5E5C005D51C3 /* DMHeartFlyView.m in Sources */,
+				E0455D4C1E164BA9005D2256 /* UIImageView+Setup.m in Sources */,
+				E0A571E51E1B9093005D51C3 /* TimerTool.m in Sources */,
+				E06CC82B1E1CAEEB00E4DE2E /* NSSafeObject.m in Sources */,
+				E06CC8251E1C958700E4DE2E /* EmoticonInputView.m in Sources */,
+				E0455D361E164778005D2256 /* MainNavigationController.m in Sources */,
+				E0455D531E164BA9005D2256 /* UIView+Extension.m in Sources */,
+				E0455D501E164BA9005D2256 /* UIView+Setup.m in Sources */,
+				E0455D5F1E16618A005D2256 /* PlayerModel.m in Sources */,
+				E0455D4E1E164BA9005D2256 /* UITextField+Setup.m in Sources */,
+				E0455D5C1E1660E3005D2256 /* PlayerViewController.m in Sources */,
+				E0455D4F1E164BA9005D2256 /* UITextView+Setup.m in Sources */,
+				E0455D561E164D81005D2256 /* CommendViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E0455CE51E16406B005D2256 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0455CE61E16406B005D2256 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0455CEA1E16406B005D2256 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0455CEB1E16406B005D2256 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0455CEE1E16406B005D2256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0455CEF1E16406B005D2256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0455CF11E16406B005D2256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42B2ACFC66E0E6344E0ADAF9 /* Pods-NOW直播.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NOW直播/Classes/Frameworks",
+				);
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PREFIX_HEADER = "$(SOURCE_ROOT)/$(PRODUCT_NAME)/NOWHeader.pch";
+				INFOPLIST_FILE = "NOW直播/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yunshi.NOW--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E0455CF21E16406B005D2256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF2DF0618C0681F9BE5464B /* Pods-NOW直播.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NOW直播/Classes/Frameworks",
+				);
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PREFIX_HEADER = "$(SOURCE_ROOT)/$(PRODUCT_NAME)/NOWHeader.pch";
+				INFOPLIST_FILE = "NOW直播/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yunshi.NOW--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0455CD41E16406B005D2256 /* Build configuration list for PBXProject "NOW直播" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0455CEE1E16406B005D2256 /* Debug */,
+				E0455CEF1E16406B005D2256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0455CF01E16406B005D2256 /* Build configuration list for PBXNativeTarget "NOW直播" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0455CF11E16406B005D2256 /* Debug */,
+				E0455CF21E16406B005D2256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0455CD11E16406B005D2256 /* Project object */;
+}
